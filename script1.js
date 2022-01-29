@@ -38,14 +38,9 @@ function validarInput(){
   }
 }
 
-function copiarTexto(){
-
-}
-
 mensajeIngresado.focus();
 botonEncriptar.onclick = reemplazar;
 botonDesencriptar.onclick = desencriptar;
-//.onclick = copiar;
 
 botonCopiar.addEventListener("click", function(evento){
   evento.preventDefault();
